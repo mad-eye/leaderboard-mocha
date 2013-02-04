@@ -4,8 +4,6 @@
     "branch": "master"
   },
   "packages": {
-    "meteor-mocha-web": {
-      "path": "../madeye/meteor-mocha-web"
-    }
+    "mocha-web": {}
   }
 }

@@ -6,4 +6,4 @@
 autopublish
 insecure
 preserve-inputs
-meteor-mocha-web
+mocha-web
