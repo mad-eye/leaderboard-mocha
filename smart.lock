@@ -6,13 +6,13 @@
   },
   "dependencies": {
     "basePackages": {
-      "meteor-mocha-web": {
-        "path": "../madeye/meteor-mocha-web"
-      }
+      "mocha-web": {}
     },
     "packages": {
-      "meteor-mocha-web": {
-        "path": "../madeye/meteor-mocha-web"
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
+        "tag": "v0.0.1",
+        "commit": "1edfc84969fcdd3edc05c4a31668199276594ab5"
       }
     }
   }
