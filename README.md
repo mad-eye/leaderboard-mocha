@@ -13,5 +13,7 @@ To run it with tests, use:
 METEOR_MOCHA_TEST_DIR=tests mrt
 ```
 
-Notice that running it with a plain `meteor` command will run it without the
+Notice that running it with a plain `mrt` command will run it without the
 tests.
+
+Meteorite is required (instead of plain meteor) due the smart package dependencies.
