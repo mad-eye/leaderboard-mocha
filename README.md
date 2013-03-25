@@ -10,7 +10,7 @@ and added a couple demo tests.
 
 To run it with tests, use:
 ```
-METEOR_MOCHA_TEST_DIRS=tests meteor
+METEOR_MOCHA_TEST_DIR=tests mrt
 ```
 
 Notice that running it with a plain `meteor` command will run it without the
