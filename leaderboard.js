@@ -17,7 +17,7 @@ if (Meteor.isClient) {
     return Session.equals("selected_player", this._id) ? "selected" : '';
   };
 
-  var givePoints = function(){
+  window.givePoints = function(){
     Players.update(Session.get("selected_player"), {$inc: {score: 5}});
   }
 

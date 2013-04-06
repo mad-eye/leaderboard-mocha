@@ -7,4 +7,4 @@ describe "Leaderboard", ->
       givePoints()
       player = Players.findOne(playerId)
       chai.assert.equal 10, player.score
-      Players.remove {name: "TestUser1"}
+      Players.remove playerId

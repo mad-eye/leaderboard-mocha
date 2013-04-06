@@ -4,6 +4,8 @@
     "branch": "master"
   },
   "packages": {
-    "mocha-web": {}
+    "mocha-web": {
+      "git": "https://github.com/mad-eye/meteor-mocha-web"
+    }
   }
 }

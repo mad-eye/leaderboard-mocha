@@ -2,17 +2,20 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "4d98d8cb4e5a95e9e98953f44c872c9332a042a3"
+    "commit": "cab491f3650fffc85661bca6b3cecf583410e05d"
   },
   "dependencies": {
     "basePackages": {
-      "mocha-web": {}
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web",
+        "branch": "master"
+      }
     },
     "packages": {
       "mocha-web": {
-        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
-        "tag": "v0.1.0",
-        "commit": "540fd609af4e4cfa921a1ef1151bee542d2e06a4"
+        "git": "https://github.com/mad-eye/meteor-mocha-web",
+        "branch": "master",
+        "commit": "33cfcd1a4913aae87dff397abd8699229317262d"
       }
     }
   }
