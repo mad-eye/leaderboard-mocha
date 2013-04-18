@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "cab491f3650fffc85661bca6b3cecf583410e05d"
+    "commit": "1dfc7171f237a029cca74cbf25024acbf6ed5b75"
   },
   "dependencies": {
     "basePackages": {
@@ -15,7 +15,7 @@
       "mocha-web": {
         "git": "https://github.com/mad-eye/meteor-mocha-web",
         "branch": "master",
-        "commit": "fa2e32b4492586b4eccaf5a0ab0952c1d9f12382"
+        "commit": "93ea01fc43f2fec879feeebfbe174d6c87a88f20"
       }
     }
   }
