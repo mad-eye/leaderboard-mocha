@@ -1,8 +1,4 @@
 {
-  "meteor": {
-    "git": "https://github.com/meteor/meteor.git",
-    "branch": "master"
-  },
   "packages": {
     "mocha-web": {
       "git": "https://github.com/mad-eye/meteor-mocha-web"
