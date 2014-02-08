@@ -1,8 +1,14 @@
+assert = Npm.require "assert"
+
 describe "Leaderboard", ->
-  describe "givePoints", ->
-    it "gives 5 points to the user", ->
+  describe "player", ->
+    it "can insert a player into the db", (done)->
       playerId = Players.insert {name: "TestUser1", score: 5}
-      player = Players.findOne()
-      player = Players.findOne(playerId)
-      console.log "PLAYER", player
-      #TODO add a meaningful assertion
+      player = Players.findOne(playerId);
+      assert.ok player, "player is not null"
+      Players.remove player._id
+
+  describe "failureTest", ->
+    it "shall FAIL", (done)->
+      x = null
+      x.missing = "something"
