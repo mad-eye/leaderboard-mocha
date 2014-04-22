@@ -11,7 +11,7 @@
       "mocha-web": {
         "git": "https://github.com/mad-eye/meteor-mocha-web",
         "branch": "master",
-        "commit": "28e096f3b93edc49078a7686a1f606a155d77465"
+        "commit": "04b3a0e8c898f027021486b6effa475808bae46b"
       }
     }
   }
