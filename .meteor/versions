@@ -29,7 +29,7 @@ livedata@1.0.9
 logging@1.0.3
 meteor-platform@1.1.0
 meteor@1.1.0
-mike:mocha@0.3.8
+mike:mocha@0.3.10
 minifiers@1.1.0
 minimongo@1.0.3
 mobile-status-bar@1.0.0
